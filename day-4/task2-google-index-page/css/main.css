@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    list-style-type:none;
+}
+.upper{
+    margin-left: 80%;
+}
+.upper li{
+    
+    display:inline;
+    list-style-type:none;
+    text-decoration: none;
+}
+.middle-logo{
+    text-align: center;
+    margin-top: 7%;
+}
+.search-bar-mic{
+    display: inline;
+    margin-left: 35%;
+}
+.miclogo{
+    width: 25px;
+}
+#search-bar{
+    width:425px;
+    height:40px;
+    border-radius: 20px;
+   
+
+}
