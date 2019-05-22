@@ -1,4 +1,8 @@
 
+body{
+    font-family: Arial;
+}
+
 header{
     text-align: center;
 }
@@ -23,12 +27,12 @@ section{
     height:40px;
     margin-left: 0%;
     margin-top:5px;
-    background-color: rgb(72, 133, 247);
+    background-color: #0073b1;
     color: white;
 }
 .forget{
     text-decoration: none;
-    color:  rgb(72, 133, 247);
+    color:  #0073b1;
     font-size: 20px;
 }
 .join{
@@ -40,4 +44,23 @@ section{
 
 a{
     text-decoration: none;
+}
+.nav{
+    list-style-type:none;
+    
+}
+.nav1{
+    display: inline-block
+}
+#lastimg1{
+ 
+    
+    margin-right:0%;
+    padding-left: 4%;
+}
+nav{
+   margin-top: 150px;
+    border-top: 1px solid black;
+    margin-left: 0;
+    width: 100%;
 }
