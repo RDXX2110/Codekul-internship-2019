@@ -7,7 +7,7 @@ body{
 }
 .upper li{
     
-    display:inline;
+    display: inline-block;
     list-style-type:none;
     text-decoration: none;
 }
@@ -84,7 +84,7 @@ height: 25px;
 }
 a{
     text-decoration: none;
-    color: ra(0,0,0,.54);
+    color: rgba(0,0,0,.54);
 }
 
 
