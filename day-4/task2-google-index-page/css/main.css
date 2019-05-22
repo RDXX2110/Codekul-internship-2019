@@ -26,6 +26,73 @@ body{
     width:425px;
     height:40px;
     border-radius: 20px;
+    margin-top:2.5%;
    
 
+}
+.under-search-bar1{
+    margin-top:2.5%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    
+}
+.search{
+    text-decoration: none;
+    width: 20px;
+    color:gray;
+    
+}
+.lucky{
+    text-decoration: none;
+    color:gray;
+}
+.under-lucky1 li {
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    
+
+    
+}
+.under-lucky1{
+    text-align: center;
+    
+}
+.India{
+text-align: left;
+margin-top: 10%;
+background-color: #5f6368;
+color: rgba(0,0,0,.54);
+height: 25px;
+}
+.last-part li{
+   
+    display: inline;
+    list-style-type: none;
+
+  
+}
+
+.last-part{
+    
+    list-style-type: none;
+    color: rgb(37, 37, 37);
+    background-color:  #5f6368;
+    text-underline-position:none ;
+}
+a{
+    text-decoration: none;
+    color: ra(0,0,0,.54);
+}
+
+
+
+.last1  {
+    float:right;
+    color: rgba(0,0,0,.54);
+}
+.li1{
+    text-decoration: none;
 }
