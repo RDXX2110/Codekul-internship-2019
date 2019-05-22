@@ -10,38 +10,34 @@
 <body>
     <header>
         <div class="link-logo">   
-            <img src="images/LinkedIn_Logo.svg" alt="linkedinlogo">
+            <img src="images/LinkedIn_Logo.svg" alt="linkedinlogo" class="link-logo">
         </div>
-        <div class="heading">
+        <div>
             <h1>
                 Welcome Back
             </h1>
-            <p>
+            <p class="heading">
                 Don't miss your next opportunity. Sign in to stay updated on your professional world.
             </p>
         </div>
 
     </header>
     <section>
-        <div class="login">   
-            <label for="email">Email or Phone</label>
-            <br>
-            <input type="text">
+        <div class="login">  
+            <textarea name="email" cols="50" rows="2.75"  class="email" >Email or Phone </textarea>
         </div>
         <div class="password">
-            <label for="pass">Password</label>
-            <br>
-            <input type="text">
+            <textarea name="password" cols="50" rows="2.75"  >Password </textarea>    
         </div>
-        <div>
-            <button type="button"> 
+        <div >
+            <button type="button" class="sign"> 
                 Sign In
             </button>
         </div>
-        <div class="forgot">
-         <a href="#"><p>Forgot password?</p></a>
-        </div>
         <div>
+         <a href="#"><p class="forget">Forgot password?</p></a>
+        </div>
+        <div class="join">
             <p>New to LinkedIn?</p>
             <a href="#"><p>Join Now</p></a>
         </div>

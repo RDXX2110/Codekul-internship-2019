@@ -1,0 +1,43 @@
+
+header{
+    text-align: center;
+}
+.link-logo{
+    text-align: center;
+    width:25%; 
+    margin-left: 33.25%;
+    margin-top: 5%;
+}
+.heading{
+    color:gray;
+}
+section{
+    text-align: center;
+}
+
+.password{
+    margin-top: 10px;
+}
+.sign   {
+    width: 25%;
+    height:40px;
+    margin-left: 0%;
+    margin-top:5px;
+    background-color: rgb(72, 133, 247);
+    color: white;
+}
+.forget{
+    text-decoration: none;
+    color:  rgb(72, 133, 247);
+    font-size: 20px;
+}
+.join{
+    display: flex;
+    margin-left: 42.25%;
+    font-size: 20px;
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
