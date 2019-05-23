@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: inherit;
+    background-color: #e9ebee;
+}
+header{
+    background-color: #4267b2;
+    width: 9999px;
+    height: 82px;
+    display: inline-block;
+}
+.fblogoimg{
+    width: 168px;
+    height:55.8px;
+    margin-top: 17px;
+    float: left;
+    margin-left:270px;
+    
+    
+}
+.greenbtn1{
+    color: white;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border: 1px solid #42b72a;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 8px;
+    text-align: center;
+    width: 138.7px;
+    height: 31.6px;
+   margin-left: 0px;
+    margin-top: 28px;
+}
+.aofimg{
+    margin-bottom: 0px;
+}
+section{
+    text-align: center;
+    background-color: #fff;
+    padding: 22px 0px 26px 0px;
+    margin: auto;
+    width: 614px;
+    margin-top:86px;
+    height: 374px;
+}
+.ptext1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;  
+    color: #1c1e21;
+    direction: ltr;
+
+}
+#email , #pass {
+    width:320px;
+    height:46;
+    padding: 6px 0;
+    width: 302px;
+    font-size: 14px;
+    padding: 5px 8px;
+    width: 284px;
+}
