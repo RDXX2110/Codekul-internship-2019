@@ -1,6 +1,80 @@
 body{
     background-color: #fafafa;
+    text-align: center;
 }
 header {
-    ba
+    background: white;
+    width: 348px;
+    height: 539px;
+    
+    margin-left: 501px;
+}
+.background{
+    background-color: #fafafa;
+}
+.logoimg{
+    text-align: center;
+    width: 175px;
+    height: 51px;
+    
+   
+}
+.divlogoimg{
+    margin: 22px auto 12px;
+}
+.divptext1{
+    width:268px ;
+    height: 40px;
+}
+.ptext1{
+    font-weight: 600;
+    line-height: 20px;
+    
+    font-size: 17px;
+    margin: 0 40px 10px;
+    color: #999;
+    text-align: center;
+}
+.blue-container{
+    display: block;
+    width: 268px;
+    height: 31.2px;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #3897f0;
+    margin-left: 47px;
+    
+
+}
+.divptextp{
+    margin-bottom: -34px;
+    margin-top: -30px;
+    color:#fff;
+
+    
+
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.ptext6, ptext7{
+   color:  #efefef;
+   width: 107.04px;
+   height: 1px;
+}
+.divptext6-7{
+    margin: 10px 40px 18px;
+    display: flex;       
+}
+.fblogo{
+    margin-right: 100%;
+}
+.textboxes{
+    vertical-align: middle ;
+}
+#number , #f-name, #u-name, #pass{
+    vertical-align: middle ;
+    width: 2px;
 }
