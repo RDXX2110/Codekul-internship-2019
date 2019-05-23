@@ -101,16 +101,20 @@ a{
     padding:0 24px;
 }
 nav{
-    border-top: 1px solid black;
+   
+    margin-top: 94px;
 }
 
-}
 .lag{
-  
+ 
     width: 99999px;
+    height: 3px;
 }
-ol{
-    display: flex;
-    justify-content: space-between;
-    text-emphasis: none;
-}
+ol li { 
+    display:inline;
+    
+    }
+    footer{
+        background-color: #fff;
+        
+    }
