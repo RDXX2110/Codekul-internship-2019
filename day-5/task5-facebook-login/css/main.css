@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: inherit;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #e9ebee;
 }
 header{
@@ -61,4 +61,56 @@ section{
     font-size: 14px;
     padding: 5px 8px;
     width: 284px;
+}
+.loginbtn{
+    width:320px;
+    height:46;
+    padding: 5px 10px;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color:#fff;
+    font-family: inherit;
+    border: 1px solid #4267b2;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: none;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.forgot{
+    font-size: 12px;
+}
+.strikee{
+   color: #ccd0d5;
+}
+.btn2{
+    color: white;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border: 1px solid #42b72a;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    width: 186px;
+    height: 43px;
+    padding:0 24px;
+}
+nav{
+    border-top: 1px solid black;
+}
+
+}
+.lag{
+  
+    width: 99999px;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    text-emphasis: none;
 }
