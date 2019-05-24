@@ -4,3 +4,22 @@ body{
 .height{
     min-height: 100vh; 
 }
+.title-underline{
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+}
+.height-80{
+    min-height: 100vh; 
+}
+.about-picture{
+    background: url(../images/2928.jpg)center/cover no-repeat fixed;
+    /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+}
+#about{
+    background:transparent !important;
+}
