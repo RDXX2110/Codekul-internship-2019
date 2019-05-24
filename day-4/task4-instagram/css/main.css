@@ -1,80 +1,69 @@
+.left-image{
+    width: 80%;
+    height: 75%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 body{
-    background-color: #fafafa;
+    background: rgb(243, 243, 243);
     text-align: center;
+
 }
-header {
-    background: white;
-    width: 348px;
-    height: 539px;
-    
-    margin-left: 501px;
-}
-.background{
-    background-color: #fafafa;
-}
-.logoimg{
-    text-align: center;
-    width: 175px;
-    height: 51px;
-    
-   
-}
-.divlogoimg{
-    margin: 22px auto 12px;
-}
-.divptext1{
-    width:268px ;
-    height: 40px;
-}
-.ptext1{
-    font-weight: 600;
-    line-height: 20px;
-    
-    font-size: 17px;
-    margin: 0 40px 10px;
-    color: #999;
-    text-align: center;
-}
-.blue-container{
+.right-image{
+    width: 150px;
+    height: 60px;
     display: block;
-    width: 268px;
-    height: 31.2px;
-    border: 1px solid #3897f0;
-    border-radius: 4px;
-    text-decoration: none;
-    background-color: #3897f0;
-    margin-left: 47px;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-div{
+    width: 50%;
+    text-align: center;
+    color: 
+    display: block;
+    margin-left: 350px;
 
 }
-.divptextp{
-    margin-bottom: -34px;
-    margin-top: -30px;
-    color:#fff;
 
-    
+.inputs{
+    color:rgb(202, 200, 200);
+    background: rgb(243, 243, 243);
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 4px;
+    padding: .7em;
+    width:50%;
+}
 
+.loginbut{
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: .7em;
+    border-radius: 7px;
+    width:55%;
+
+}
+pre{
+    color: rgb(202, 200, 200);
+}
+
+.right-inside{
+    background:white;
+    border:1px solid gray;
+}
+
+p{
+    font-size: 14px;
+}
+
+.signup{
+ padding: 1em 0;
 }
 a{
     text-decoration: none;
-    list-style-type: none;
-}
-.ptext6, ptext7{
-   color:  #efefef;
-   width: 107.04px;
-   height: 1px;
-}
-.divptext6-7{
-    margin: 10px 40px 18px;
-    display: flex;       
-}
-.fblogo{
-    margin-right: 100%;
-}
-.textboxes{
-    vertical-align: middle ;
-}
-#number , #f-name, #u-name, #pass{
-    vertical-align: middle ;
-    width: 2px;
+    size: 14px;
+    color: #3897f0;
 }
