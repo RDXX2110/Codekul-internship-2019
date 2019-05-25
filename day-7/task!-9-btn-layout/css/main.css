@@ -2,8 +2,27 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .height{
-    min-height: 100vh; 
+    height:40vh;  
 }
-#padding1{
-    padding-top: 175px;
+.height1{
+    height:55.50vh;
 }
+
+
+
+@media only screen and  (max-height: 149px) {
+    .height{
+        height:0vh;  
+    }
+    .height1{
+        height:0vh;
+    }
+  }
+  @media screen and  (max-height: 159px) {
+    .height{
+        height:0vh;  
+    }
+    .height1{
+        height:0vh;
+    }
+  }
