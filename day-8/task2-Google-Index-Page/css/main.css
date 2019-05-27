@@ -1,6 +1,15 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-.height{
-    min-height: 100vh; 
+.heighthead {
+    height: 25vh;
+}
+.widinput{
+    width: 60vh;
+}
+.btncolor{
+    background-color: #f2f2f2;
+}
+.widthbtns{
+    width: 40vh;
 }
