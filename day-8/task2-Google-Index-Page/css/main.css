@@ -3,6 +3,7 @@ body{
 }
 .heighthead {
     height: 25vh;
+    width: 50vh;
 }
 .widinput{
     width: 60vh;
@@ -12,7 +13,7 @@ body{
 }
 .widthbtns{
     width: 40vh;
-}
+}   
 .heightfooter{
-    height: 33vh;
+    height: 51vh;
 }
