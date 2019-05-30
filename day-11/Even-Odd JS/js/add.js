@@ -3,10 +3,10 @@ function odd_even(){
     no=Number(document.getElementById("no_input").value);
     if(no%2==0)
     {
-    alert("Even Number");
+        document.getElementById("result").value=no+"  "+" IS EVEN Number";
     }
     else
     {
-    alert("Odd Number");
+        document.getElementById("result").value=no+"  "+"IS ODD Number";
     }
     }
