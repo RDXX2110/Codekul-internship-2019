@@ -26,6 +26,9 @@ function division() {
     c = a / b;
     document.getElementById("answer").value = c;
 }
-// function onenum(){
-
-// }
+ function onenum(){
+    var onenum;
+    onenum = Number(document.getElementById("onenum").value)
+        document.getElementById("first").value.getElementById("onenum");
+    }
+ 
