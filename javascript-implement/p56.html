@@ -1,0 +1,27 @@
+<script>
+        var contacts = [{
+            firstname: "prathamesh ",
+            lastname: "bhamanage",
+            number: "7559334454"
+        }, {
+            firstname: "raj",
+            lastname: "patil",
+            number: "9448550034"
+        }, {
+            firstname: "sanket",
+            lastname: "khumbar",
+            number: "9223445573"
+        }];
+    
+        function lookup(name, prop) {
+            for (let i = 0; i < contacts.length; i++) {
+                if (contacts[i].firstname === name) {
+                    return contacts[i][prop] || "property not exists";
+                }
+            }
+            return "no such contact";
+        }
+        var data = lookup("prathamesh", "number");
+    
+        console.log(data);
+    </script>

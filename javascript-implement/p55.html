@@ -1,0 +1,45 @@
+<script>
+        var collection = {
+            "1234": {
+                album: "hello",
+                artist: "prathamesh ",
+                tracks: [
+                    "happpier",
+                    "dance"
+                ]
+            },
+            "2345": {
+                album: "prince",
+                artist: "raj",
+                tracks: [
+                    "hello",
+                    "dance"
+                ]
+            },
+            "3456": {
+                album: "2001",
+                artist: "kote",
+                tracks: [
+                    "kkk",
+                    "dance"
+                ]
+            }
+        };
+        var collectioncopy = JSON.parse(JSON.stringify(collection));
+    
+        function updaterecord(id, prop, value) {
+            if (value === "") {
+                delete collection[id][prop];
+            } else if (prop === "tracks") {
+                collection[id][prop] = collection[id][prop] || []
+                collection[id][prop].push(value);
+            } else {
+                collection[id][prop] = value;
+            }
+    
+    
+            return collection;
+        }
+        console.log(collection);
+        console.log(updaterecord(1234, "artist", "abba"));
+    </script>

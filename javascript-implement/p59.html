@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [3, 5, 7, 10];
+
+        function pushq(num) {
+            arr.push(num);
+        }
+
+        function popq(num) {
+            arr.shift(num);
+        }
+        console.log("before every thing" + arr);
+        pushq(99);
+        console.log("after push" + arr);
+        popq();
+        console.log("after pop" + arr);
+    </script>
+</body>
+
+</html>

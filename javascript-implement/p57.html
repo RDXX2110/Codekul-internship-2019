@@ -1,0 +1,16 @@
+<script>
+        const s = [5, 7, 8, 9];
+        try {
+            s = [1, 2, 3, 4]
+        } catch (e) {
+            console.log(e);
+        } finally {
+            console.log("tried to change array not possible");
+            console.log(s);
+    
+            s[0] = 3;
+            console.log("after mutating the const array");
+            console.log(s);
+    
+        }
+    </script>
